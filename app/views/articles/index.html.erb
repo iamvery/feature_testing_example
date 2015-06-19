@@ -1,0 +1,7 @@
+<h1>WOW, INTERESTING ARTICLES!!1!</h1>
+<ul>
+  <% @articles.each do |article| %>
+    <li><%= article.title %></li>
+  <% end %>
+</ul>
+<%= link_to "New Article", new_article_path %>
