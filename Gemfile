@@ -30,5 +30,4 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails', '~> 3.0'
-  gem 'turnip'
 end
