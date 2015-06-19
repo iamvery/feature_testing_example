@@ -1,6 +1,6 @@
 require "rails_spec_helper"
 
-RSpec.feature "articles management", js: true do
+RSpec.feature "articles management" do
   describe "article index" do
     it "lists all articles" do
       Article.create!(title: "Famous Cats")
